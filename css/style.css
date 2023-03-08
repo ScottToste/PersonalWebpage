@@ -1,13 +1,13 @@
 /* Colours: 
-            BLACK: 
-            WHITE: 
-            GREY: #353535
-            PURPLE: 
-            ORANGE: 
+            BLACK: rgba(0, 0, 0, 1)
+            WHITE: rgba(255, 255, 255, 1)
+            GREY: rgba(53, 53, 53, 1)
+            PURPLE: rgba(153, 0, 204, 1)
+            ORANGE: rgba(255, 102, 0, 1)
 */
 
 body
 {
-    background-color: #353535;
+    background-color:rgba(53, 53, 53, 1);
     background-image: url("../img/prism.png");
 }
