@@ -1,16 +1,15 @@
 /* Colours: 
-            BLACK: rgba(0, 0, 0, 1) / #000000
-            WHITE: rgba(255, 255, 255, 1) / #FFFFFF
-            GREY: rgba(53, 53, 53, 1) / #353535
-            PURPLE: rgba(153, 0, 204, 1) / #9900CC
-            ORANGE: rgba(255, 102, 0, 1) / #FF6600
+            GREY: #353535
+            PURPLE: #9900CC
+            ORANGE: #FF6600
 */
 
 body
 {
+    background-image: url("/img/prism.png");
     margin: 0;
     color: white;
-    background-color: black;
+    background-color: #353535;
     font-family: 'arial black';
 }
 
@@ -24,7 +23,7 @@ button
 {
     width: 100px;
     height: 50px;
-    background-color: #353535;
+    background-color: black;
     color: #9900CC;
     font-size: large;
     text-decoration: solid;
@@ -36,14 +35,14 @@ button
 button:hover
 {
     background-color: #9900CC;
-    color: #FF6600;
+    color: white;
 }
 
 .nav-bar
 {
     width: 100%;
     height: 50px;
-    background-color: #353535;
+    background-color: black;
 }
 
 .nav-bar img
