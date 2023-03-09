@@ -8,11 +8,28 @@
 
 <body>
     <div class="nav-bar">
-        <img src="/img/Logo.jpg" alt="Logo">
-        <a href="https://www.linkedin.com/in/scott-toste-182246262/">Linkedin</a>
-        <a href="https://github.com/ScottToste">GitHub</a>
-        <a href="index.html">Contact</a>
+        <span class="logo"><img src="/img/Logo.png" alt="Logo"></span>
+        <button id="linkedinButton">Linkeden</button>
+        <button id="githubButton">GitHub</button>
+        <button id="contactButton">Contact</button>
     </div>
 </body>
+
+<script type="text/javascript">
+    document.getElementById("linkedinButton").onclick = function () 
+    {
+        location.href = "https://www.linkedin.com/in/scott-toste-182246262/";
+    };
+
+    document.getElementById("githubButton").onclick = function () 
+    {
+        location.href = "https://github.com/ScottToste";
+    };
+
+    document.getElementById("contactButton").onclick = function () 
+    {
+        location.href = "index.html";
+    };
+</script>
 
 </html>
