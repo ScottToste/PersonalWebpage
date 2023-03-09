@@ -1,14 +1,69 @@
 /* Colours: 
-            BLACK: rgba(0, 0, 0, 1)
-            WHITE: rgba(255, 255, 255, 1)
-            GREY: rgba(53, 53, 53, 1)
-            PURPLE: rgba(153, 0, 204, 1)
-            ORANGE: rgba(255, 102, 0, 1)
+            BLACK: rgba(0, 0, 0, 1) / #000000
+            WHITE: rgba(255, 255, 255, 1) / #FFFFFF
+            GREY: rgba(53, 53, 53, 1) / #353535
+            PURPLE: rgba(153, 0, 204, 1) / #9900CC
+            ORANGE: rgba(255, 102, 0, 1) / #FF6600
 */
 
 body
 {
-    background-color:rgba(53, 53, 53, 1);
-    background-image: url("../img/prism.png");
-    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    color: white;
+    font-family: 'arial black';
+}
+
+header .name
+{
+    float: left;
+    background-color: black;
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+header .links
+{
+    float: right;
+    background-color: #353535;
+    width: 60%;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 104px;
+    padding-bottom: 10px;
+}
+
+header .links a
+{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header .links a:link, header .links a:visited
+{
+    color: #9900CC;
+}
+
+header .links a:hover, header .links a:active
+{
+    color: #FF6600;
+}
+
+.main-left
+{
+    float: left;
+    background-color: #353535;
+    width: 60%;
+    height: 100vw;
+}
+
+.main-right
+{
+    float: right;
+    background-color: black;
+    width: 40%;
+    height: 100vw;
 }
