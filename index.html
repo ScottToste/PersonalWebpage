@@ -8,17 +8,22 @@
 
 <body>
     <div class="nav-bar">
-        <span class="logo"><img src="img/Logo.png" alt="Logo"></span>
+        <img src="img/Logo.png" alt="S.T">
         <button id="linkedinButton">Linkedin</button>
         <button id="githubButton">GitHub</button>
-        <button id="contactButton">Contact</button>
     </div>
     <div class="main">
-        <img src="img/ScottToste.jpg" alt="Scott Toste">
+        <span class="main-left">
+            <img src="img/ScottToste.jpg" alt="Scott Toste">
+        </span>
+        <span class="main-right">
+            <h1>SCOTT.T</h1>
+            <h2>Software Developer</h2>
+            <h2>Extraordinaire</h2>
+        </span>
     </div>
     
 </body>
-
 </html>
 
 <script type="text/javascript">
@@ -30,10 +35,5 @@
     document.getElementById("githubButton").onclick = function () 
     {
         location.href = "https://github.com/ScottToste";
-    };
-
-    document.getElementById("contactButton").onclick = function () 
-    {
-        location.href = "index.html";
     };
 </script>
