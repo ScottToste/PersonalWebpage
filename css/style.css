@@ -1,6 +1,6 @@
 /* Colours: 
             GREY: #353535
-            PURPLE: #9900CC
+            PURPLE: #8600b3
             ORANGE: #FF6600
 */
 
@@ -8,7 +8,7 @@ body
 {
     margin: 0;
     color: white;
-    background-color: #353535;    
+    background-color: black;    
     background-image: url("../img/prism.png");
     font-family: 'arial black';
 }
@@ -34,7 +34,7 @@ button
     width: 100px;
     height: 50px;
     background-color: black;
-    color: #9900CC;
+    color: #8600b3;
     font-size: large;
     text-decoration: solid;
     font-family: 'Arial Black';
@@ -44,7 +44,7 @@ button
 
 button:hover
 {
-    background-color: #9900CC;
+    background-color: #8600b3;
     color: white;
 }
 
@@ -61,17 +61,17 @@ button:hover
 
 .main-left img
 {
-    float: right;
-    height:80%;
-    width:54%;
-    margin-right: 10%;
-    margin-top: 6%;
+    float: left;
+    height:60%;
+    width:42%;
+    margin-left: 20%;
+    margin-top: 15%;
 }
 
 .main-right
 {
     float: left;
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
     margin-top: 10%;
 }
@@ -79,11 +79,11 @@ button:hover
 .main-right h1
 {
     font-size: 60px;
-    color: #9900CC;
+    color: #8600b3;
 }
 
 .main-right h2
 {
     font-size: 40px;
-    color: #9900CC;
+    color: #8600b3;
 }
